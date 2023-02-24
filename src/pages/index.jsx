@@ -261,6 +261,191 @@ const index = () => {
                 </div>
               </div>
 
+              <div className="border border-white p-6 rounded-xl bg-white mb-6">
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" />
+                  <div className="collapse-title mb-4">
+                    <div className="flex items-center gap-1">
+                      <div className="bg-[#ECEDFD] px-3 py-0.5 rounded-full">
+                        <p className="text-2xl font-bold">4</p>
+                      </div>
+                      <p className="text-2xl font-bold">Categorías</p>
+                    </div>
+                  </div>
+                  <div className="collapse-content">
+                    <div className="grid grid-cols-1 pt-4">
+                      <div>
+                        <button className="btn btn-xs mb-6">Nueva categoría</button>
+                        <div className="flex items-center justify-between gap-2">
+                          <div className="flex items-center gap-4">
+                            <div>
+                              <img src="./assets/category1.jpg" alt="" />
+                            </div>
+                            <div className="flex flex-col max-w-[150px]">
+                              <p className="text-sm ">187</p>
+                              <p className="text-sm font-bold mb-2">Ropa y accesorios - Calzado</p>
+                              <button className="btn btn-xs">Editar</button>
+                            </div>
+                          </div>
+                          <div className="rating">
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-fridom" />
+                          </div>
+                        </div>
+                        <div className="divider"></div>
+                      </div>
+
+                      <div>
+                        <div className="flex items-center justify-between gap-2">
+                          <div className="flex items-center gap-4">
+                            <div>
+                              <img src="./assets/category2.jpg" alt="" />
+                            </div>
+                            <div className="flex flex-col max-w-[150px]">
+                              <p className="text-sm ">187</p>
+                              <p className="text-sm font-bold mb-2">Ropa y accesorios - Calzado</p>
+                              <button className="btn btn-xs">Editar</button>
+                            </div>
+                          </div>
+                          <div className="rating">
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-fridom" />
+                          </div>
+                        </div>
+                        <div className="divider"></div>
+                      </div>
+
+                      <div>
+                        <div className="flex items-center justify-between gap-2">
+                          <div className="flex items-center gap-4">
+                            <div>
+                              <img src="./assets/category3.jpg" alt="" />
+                            </div>
+                            <div className="flex flex-col max-w-[150px]">
+                              <p className="text-sm ">187</p>
+                              <p className="text-sm font-bold mb-2">Ropa y accesorios - Calzado</p>
+                              <button className="btn btn-xs">Editar</button>
+                            </div>
+                          </div>
+                          <div className="rating">
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-fridom" />
+                          </div>
+                        </div>
+                        <div className="divider"></div>
+                      </div>
+
+                      <div>
+                        <div className="flex items-center justify-between gap-2">
+                          <div className="flex items-center gap-4">
+                            <div>
+                              <img src="./assets/category1.jpg" alt="" />
+                            </div>
+                            <div className="flex flex-col max-w-[150px]">
+                              <p className="text-sm ">187</p>
+                              <p className="text-sm font-bold mb-2">Ropa y accesorios - Calzado</p>
+                              <button className="btn btn-xs">Editar</button>
+                            </div>
+                          </div>
+                          <div className="rating">
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-fridom" />
+                          </div>
+                        </div>
+                        <div className="divider"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border border-white p-6 rounded-xl bg-white w-full mb-6">
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" />
+                  <div className="collapse-title mb-6">
+                    <div className="flex items-center gap-1">
+                      <div className="bg-[#ECEDFD] px-3 py-0.5 rounded-full">
+                        <p className="text-2xl font-bold">5</p>
+                      </div>
+                      <p className="text-2xl font-bold">Colores y estilos</p>
+                    </div>
+                  </div>
+                  <div className="collapse-content">
+                    <div className="grid grid-cols-4 gap-2">
+                      <div className="mb-3 col-span-2">
+                        <p className="font-bold mb-2">Color principal</p>
+                        <input type="text" placeholder="Azul" className="input input-bordered w-full max-w-xs" />
+                      </div>
+                      <div className="mb-3 col-span-2">
+                        <p className="font-bold mb-2">Color secundario</p>
+                        <input type="text" placeholder="Naranjo" className="input input-bordered w-full max-w-xs" />
+                      </div>
+
+                      <div className="col-span-4">
+                        <p className="text-3xl font-bold">Títulos</p>
+                      </div>
+                      <div className="col-span-2 mb-3">
+                        <select className="select select-bordered w-full">
+                          <option selected>Font</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                      </div>
+                      <div className='mb-3'>
+                        <select className="select select-bordered w-full">
+                          <option selected>32</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                      </div>
+                      <div className='mb-3'>
+                        <input type="text" placeholder="negro" className="input input-bordered w-full max-w-xs" />
+                      </div>
+
+                      <div className="col-span-4">
+                        <p className="text-2xl font-bold">Subtítulos</p>
+                      </div>
+                      <div className="col-span-2 mb-3">
+                        <select className="select select-bordered w-full">
+                          <option selected>Font</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                      </div>
+                      <div className='mb-3'>
+                        <select className="select select-bordered w-full">
+                          <option selected>20</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                      </div>
+                      <div className='mb-3'>
+                        <input type="text" placeholder="negro" className="input input-bordered w-full max-w-xs" />
+                      </div>
+
+                      <div className="col-span-4">
+                        <p className="text-base">Cuerpo</p>
+                      </div>
+                      <div className="col-span-2">
+                        <select className="select select-bordered w-full">
+                          <option selected>Font</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                      </div>
+                      <div>
+                        <select className="select select-bordered w-full">
+                          <option selected>16</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                      </div>
+                      <div>
+                        <input type="text" placeholder="negro" className="input input-bordered w-full max-w-xs" />
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
 
             </div>
 
