@@ -9,7 +9,22 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      colors: {
+
+        'header-gray': '#f4f4f4',
+        'header-dark-gray': '#606060',
+        'fridom-blue' : '#ECEDFD',
+        'fridom' : '#404EED',
+
+       
+
+
+
+      },
+
+    },
   },
   plugins: [require("daisyui")],
 }

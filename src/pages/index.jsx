@@ -4,7 +4,7 @@ const index = () => {
   return (
     <>
       <div >
-        <div className="bg-white px-28 py-6">
+        <div className="bg-white px-20 py-6">
 
           <div className="mb-5">
             <img className="m-auto" src="./assets/logo.svg" alt="" />
@@ -12,36 +12,36 @@ const index = () => {
 
           <div className="flex items-center gap-2 justify-center">
             <div className="flex items-center gap-2 bg-gray-100 px-4 py-1 rounded-2xl">
-              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" /> 
+              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" />
               <p className="text-base font-semibold">Cuenta</p>
             </div>
 
             <div className="flex items-center gap-2 bg-gray-100 px-4 py-1 rounded-2xl">
-              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" /> 
+              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" />
               <p className="text-base font-semibold">Diseño</p>
             </div>
 
             <div className="flex items-center gap-2 bg-gray-100 px-4 py-1 rounded-2xl">
-              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" /> 
+              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" />
               <p className="text-base font-semibold">Pagos</p>
             </div>
 
             <div className="flex items-center gap-2 bg-gray-100 px-4 py-1 rounded-2xl">
-              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" /> 
+              <input type="checkbox" defaultChecked className="checkbox checkbox-xs checkbox-primary" />
               <p className="text-base font-semibold">Envíos</p>
             </div>
 
           </div>
         </div>
 
-        <div className="bg-gray-50 px-28 py-6">
+        <div className="bg-[#FAFAFB] px-20 py-6">
 
-          <div className="border border-slate-100 p-6 rounded-xl bg-slate-100 mb-6">
+          <div className="border border-fridom-blue p-6 rounded-xl bg-fridom-blue mb-6">
             <div className="flex flex-col md:flex-row items-center justify-between mb-2 ">
               <p className="text-3xl font-bold">Elige un diseño y personaliza tu tienda</p>
               <div className="flex gap-2">
-                <button className="btn btn-outline btn-primary">Configurar más tarde</button>
-                <button className="btn bg-green-400">Continuar</button>
+                <button className="btn btn-outline bg-fridom text-white capitalize ">Configurar más tarde</button>
+                <button className="btn bg-[#1FB611] border-[#1FB611] capitalize ">Continuar</button>
               </div>
             </div>
 
@@ -58,17 +58,17 @@ const index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-6">
               <div>
                 <div className="mb-3">
-                    <p className="text-lg font-normal">Altair Modern Furniture</p>
-                  </div>
+                  <p className="text-lg font-normal">Altair Modern Furniture</p>
+                </div>
 
-                  <div className="flex gap-2 mb-6">
-                    <button className="btn">Previsualizar</button>
-                    <button className=" btn btn-outline btn-primary">Seleccionar</button>
-                  </div>
+                <div className="flex gap-2 mb-6">
+                  <button className="btn bg-[#ECEDFD] border-[#ECEDFD] text-black capitalize ">Previsualizar</button>
+                  <button className=" btn btn-outline btn-primary capitalize ">Seleccionar</button>
+                </div>
 
-                  <div className="border p-6 rounded-xl flex justify-center">
-                    <img src="./assets/img1.jpg" alt="" />
-                  </div>
+                <div className="border p-6 rounded-xl flex justify-center">
+                  <img src="./assets/img1.jpg" alt="" />
+                </div>
               </div>
 
               <div>
@@ -77,8 +77,8 @@ const index = () => {
                 </div>
 
                 <div className="flex gap-2 mb-6">
-                  <button className="btn">Previsualizar</button>
-                  <button className=" btn btn-outline btn-primary">Seleccionar</button>
+                  <button className="btn bg-[#ECEDFD] border-[#ECEDFD] text-black capitalize ">Previsualizar</button>
+                  <button className=" btn btn-outline btn-primary capitalize ">Seleccionar</button>
                 </div>
 
                 <div className="border p-6 rounded-xl flex justify-center">
@@ -92,8 +92,8 @@ const index = () => {
                 </div>
 
                 <div className="flex gap-2 mb-6">
-                  <button className="btn">Previsualizar</button>
-                  <button className=" btn btn-outline btn-primary">Seleccionar</button>
+                  <button className="btn bg-[#ECEDFD] border-[#ECEDFD] text-black capitalize ">Previsualizar</button>
+                  <button className=" btn btn-outline btn-primary capitalize ">Seleccionar</button>
                 </div>
 
                 <div className="border p-6 rounded-xl flex justify-center">
@@ -107,8 +107,8 @@ const index = () => {
                 </div>
 
                 <div className="flex gap-2 mb-6">
-                  <button className="btn">Previsualizar</button>
-                  <button className=" btn btn-outline btn-primary">Seleccionar</button>
+                  <button className="btn bg-[#ECEDFD] border-[#ECEDFD] text-black capitalize ">Previsualizar</button>
+                  <button className=" btn btn-outline btn-primary capitalize ">Seleccionar</button>
                 </div>
 
                 <div className="border p-6 rounded-xl flex justify-center">
@@ -119,33 +119,157 @@ const index = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-12 gap-6">
-            <div className="border border-white p-6 rounded-xl bg-white mb-6 col-span-5">
-              <div className="collapse collapse-arrow">
-                <input type="checkbox" /> 
-                <div className="collapse-title text-xl font-medium">
-                  <div className="badge badge-lg">1</div>
-                  <div>
-                      <p className="text-2xl font-bold">Elige un diseño</p>
+          <div className="flex flex-row gap-6">
+            <div className="w-2/5">
+              <div className="border border-white p-6 rounded-xl bg-white w-full mb-6">
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" />
+                  <div className="collapse-title mb-6">
+                    <div className="flex items-center gap-1">
+                      <div className="bg-[#ECEDFD] px-3 py-0.5 rounded-full">
+                        <p className="text-2xl font-bold">1</p>
+                      </div>
+                      <p className="text-2xl font-bold">Preheader</p>
+                    </div>
+                  </div>
+                  <div className="collapse-content">
+                    <div className="grid grid-cols-2 gap-2">
+                      <div className="mb-2">
+                        <p className="font-bold mb-2">Color de fondo</p>
+                        <input type="text" placeholder="Azul" className="input input-bordered w-full max-w-xs" />
+                      </div>
+                      <div className="mb-2">
+                        <p className="font-bold mb-2">Color de texto</p>
+                        <input type="text" placeholder="Blanco" className="input input-bordered w-full max-w-xs" />
+                      </div>
+                      <div className="col-span-2">
+                        <p className="font-bold mb-2">Mensaje</p>
+                        <input type="text" placeholder="Classic Sports Clothes Amazing For Everybody" className="input input-bordered w-full max-w-xs" />
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="collapse-content"> 
-                  <p>hello</p>
+              </div>
+
+              <div className="border border-white p-6 rounded-xl bg-white mb-6">
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" />
+                  <div className="collapse-title mb-6">
+                    <div className="flex items-center gap-1">
+                      <div className="bg-[#ECEDFD] px-3 py-0.5 rounded-full">
+                        <p className="text-2xl font-bold">2</p>
+                      </div>
+                      <p className="text-2xl font-bold">Menú</p>
+                    </div>
+                  </div>
+                  <div className="collapse-content">
+                    <div className="grid grid-cols-1">
+                      <div className="border rounded-2xl p-2 flex items-center justify-between mb-2">
+                        <select className="select select-bordered">
+                          <option selected>Item</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                        <input type="checkbox" className="toggle toggle-success" defaultChecked />
+                      </div>
+
+                      <div className="border rounded-2xl p-2 flex items-center justify-between mb-2">
+                        <select className="select select-bordered">
+                          <option selected>Item</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                        <input type="checkbox" className="toggle toggle-success" defaultChecked />
+                      </div>
+
+                      <div className="border rounded-2xl p-2 flex items-center justify-between mb-2">
+                        <select className="select select-bordered">
+                          <option selected>Item</option>
+                          <option>Han Solo</option>
+                          <option>Greedo</option>
+                        </select>
+                        <input type="checkbox" className="toggle toggle-success" defaultChecked />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+
+              <div className="border border-white p-6 rounded-xl bg-white mb-6">
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" />
+                  <div className="collapse-title mb-6">
+                    <div className="flex items-center gap-1">
+                      <div className="bg-[#ECEDFD] px-3 py-0.5 rounded-full">
+                        <p className="text-2xl font-bold">3</p>
+                      </div>
+                      <p className="text-2xl font-bold">Carrusel</p>
+                    </div>
+                  </div>
+                  <div className="collapse-content p-0 rounded-t-lg">
+                    <div className="grid grid-cols-1">
+
+                      <div className="collapse collapse-arrow border mb-4">
+                        <input type="checkbox" />
+                        <div className="collapse-title bg-[#F1F1F5]">
+                          <div>
+                            <p className="text-lg font-bold">Diapositiva 1</p>
+                          </div>
+                        </div>
+                        <div className="collapse-content">
+                          <div className="grid grid-cols-1 pt-4">
+                            <div className='mb-6'>
+                              <p className="text-base font-bold mb-2">Imagen</p>
+                              <input type="file" className="file-input file-input-bordered file-input-xs w-full max-w-xs" />
+                            </div>
+
+                            <div className='mb-6'>
+                              <div className="flex items-center gap-2">
+                                <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                                <p className="text-base font-bold mb-2">Título</p>
+                              </div>
+                              <input type="text" placeholder="Classic Sports Clothes Amazing For Everybody" className="input input-bordered w-full max-w-xs" />
+                            </div>
+
+                            <div className='mb-6'>
+                              <div className="flex items-center gap-2">
+                                <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                                <p className="text-base font-bold mb-2">Mensaje para tus clientes</p>
+                              </div>
+                              <textarea className="textarea textarea-bordered w-full max-w-xs" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, morbi donec consectetur enim amet ut. Egestas habitasse massa. "></textarea>
+                            </div>
+
+                            <div className='mb-6'>
+                              <div className="flex items-center gap-2">
+                                <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                                <p className="text-base font-bold mb-2">Botón</p>
+                              </div>
+                              <input type="text" placeholder="Shop Now" className="input input-bordered w-full max-w-xs" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <button className="btn gap-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                          Agregar diapositiva
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
-            <div className="border border-white p-6 rounded-xl bg-white mb-6 col-span-7">
-              <p>hola</p>
+            <div className="w-3/5">
+              <div className="border border-white p-6 rounded-xl bg-white w-full">
+                <p>Hola</p>
+              </div>
             </div>
           </div>
-
-          <div className="grid grid-cols-3 gap-6">
-            <div className="border border-white p-6 rounded-xl bg-white mb-6">
-              <p>hola</p>
-            </div>
-          </div>
-
 
         </div>
       </div>
