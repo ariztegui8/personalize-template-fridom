@@ -445,6 +445,137 @@ const index = () => {
                 </div>
               </div>
 
+              <div className="border border-white p-6 rounded-xl bg-white w-full mb-6">
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" />
+                  <div className="collapse-title mb-4">
+                    <div className="flex items-center gap-1">
+                      <div className="bg-[#ECEDFD] px-3 py-0.5 rounded-full">
+                        <p className="text-2xl font-bold">6</p>
+                      </div>
+                      <p className="text-2xl font-bold">Quiénes somos</p>
+                    </div>
+                  </div>
+                  <div className="collapse-content">
+                    <div className="grid grid-cols-1 pt-4">
+
+                      <div className='mb-4'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Mostrar</p>
+                        </div>
+                      </div>
+                      <div className='mb-6'>
+                        <p className="text-base font-bold mb-2">Imagen</p>
+                        <input type="file" className="file-input file-input-bordered file-input-xs w-full max-w-xs" />
+                      </div>
+
+                      <div className='mb-6'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Título</p>
+                        </div>
+                        <input type="text" placeholder="Classic Sports Clothes Amazing For Everybody" className="input input-bordered w-full max-w-xs" />
+                      </div>
+
+                      <div className='mb-6'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Mensaje para tus clientes</p>
+                        </div>
+                        <textarea className="textarea textarea-bordered w-full max-w-xs" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, morbi donec consectetur enim amet ut. Egestas habitasse massa. "></textarea>
+                      </div>
+
+                      <div className='mb-6'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Botón</p>
+                        </div>
+                        <input type="text" placeholder="Button" className="input input-bordered w-full max-w-xs" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border border-white p-6 rounded-xl bg-white w-full mb-6">
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" />
+                  <div className="collapse-title mb-4">
+                    <div className="flex items-center gap-1">
+                      <div className="bg-[#ECEDFD] px-3 py-0.5 rounded-full">
+                        <p className="text-2xl font-bold">7</p>
+                      </div>
+                      <p className="text-2xl font-bold">Pie de página</p>
+                    </div>
+                  </div>
+                  <div className="collapse-content">
+                    <div className="grid grid-cols-1 pt-4">
+
+                      <div className='mb-1'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Logo</p>
+                        </div>
+                      </div>
+                      <div className='mb-6'>
+                        <input type="file" className="file-input file-input-bordered file-input-xs w-full max-w-xs" />
+                      </div>
+
+                      <div className='mb-6'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Dirección</p>
+                        </div>
+                        <textarea className="textarea textarea-bordered w-full max-w-xs" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "></textarea>
+                      </div>
+
+                      <div className='mb-6'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Correo</p>
+                        </div>
+                        <input type="text" placeholder="ejemplo@correo.com" className="input input-bordered w-full max-w-xs" />
+                      </div>
+
+                      <div className='mb-6'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Teléfono</p>
+                        </div>
+                        <input type="text" placeholder="+000 00 000 00" className="input input-bordered w-full max-w-xs" />
+                      </div>
+
+                      <div className='mb-6'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Redes sociales</p>
+                        </div>
+                        <input type="text" placeholder="Link Facebook" className="input input-bordered w-full max-w-xs mb-2" />
+                        <input type="text" placeholder="Link Twitter" className="input input-bordered w-full max-w-xs mb-2" />
+                        <input type="text" placeholder="Link Instagram" className="input input-bordered w-full max-w-xs mb-2" />
+                        <input type="text" placeholder="Link Youtube" className="input input-bordered w-full max-w-xs mb-2" />
+                      </div>
+
+                      <div className='mb-4'>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Categorías</p>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <input type="checkbox" className="toggle toggle-success mb-1" defaultChecked />
+                          <p className="text-base font-bold mb-2">Newsletter</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
 
 
             </div>
