@@ -1,6 +1,131 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const index = () => {
+
+  const [dataPersonalize, setDataPersonalize] = useState({
+    
+    preheader: {
+      background_color: "#000000",
+      text_color: "#FFFFFF",
+      text: "10% de descunento"
+    },
+    menu: [
+      {
+        item: "Categoría o quienes somos",
+        active: true
+      },
+      {
+        item: "Categoría o quienes somos",
+        active: true
+      },
+      {
+        item: "Categoría o quienes somos",
+        active: true
+      }
+    ],
+    carrousel: [
+      {
+        image: { 
+          id: "3242344234232344" 
+        },
+        show_title: true,
+        text_title: "Lorem ipsum dolor sit amt",
+        show_message: true,
+        text_message: "Lorem ipsum dolor sit amt ladsa das das dasoijasdoiasjd",
+        show_button: true,
+        text_button: "Lorem ipsum",
+        link_button: "http:// .....",
+      },
+      {
+        image: { 
+          id: "3242344234232344"
+        },
+        show_title: true,
+        text_title: "Lorem ipsum dolor sit amt",
+        show_message: true,
+        text_message: "Lorem ipsum dolor sit amt ladsa das das dasoijasdoiasjd",
+        show_button: true,
+        text_button: "Lorem ipsum",
+        link_button: "http:// .....",
+      },
+    ],
+    categories: [
+      {
+        image: {
+          id: "3242344234232344" 
+        },
+        text_name: "Ropa y accesorios",
+        featured: true
+      },
+      {
+        image: {
+          id: "3242344234232344"
+        },
+        text_name: "Ropa y accesorios",
+        featured: true
+      },
+      {
+        image: {
+          id: "3242344234232344"
+        },
+        text_name: "Ropa y accesorios",
+        featured: true
+      },
+    ],
+    colors: {
+      primary_color: "#ff0fff",
+      secondary_color: "#ffEEFf",
+      h1: {
+        font: "Helvetica",
+        size: "32px",
+        color: "#440044"
+      },
+      h2: {
+        font: "Arial",
+        size: "18px",
+        color: "#440044"
+      },
+      body: {
+        font: "Roboto",
+        size: "12px",
+        color: "#440044"
+      },
+    },
+    about: {
+      display: true,
+      image: {
+        id: "3242344234232344"
+      },
+      show_title: true,
+      text_title: "Lorem ipsum dolor sit amt",
+      show_message: true,
+      text_message: "Lorem ipsum dolor sit amt ladsa das das dasoijasdoiasjd",
+      show_button: true,
+      text_button: "Lorem ipsum",
+      link_button: "http:// .....",
+    },
+    footer: {
+      show_logo: true,
+      logo: {
+        id: "3242344234232344"
+      },
+      show_address: true,
+      text_address: "Lorem ipsum dolor sit amet",
+      show_email: true,
+      text_email: "jorge@campeon.com",
+      show_phone: true,
+      text_phone: "54534345534534534",
+      link_facebook: "https://...",
+      link_twitter: "https://...",
+      link_instagram: "https://...",
+      link_youtue: "https://...",
+      show_categories: true,
+      show_newsletter: true,
+    }
+  })
+
+  console.log(dataPersonalize);
+
   return (
     <>
       <div >
